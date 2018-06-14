@@ -6,6 +6,7 @@ import de.predic8.workshop.checkout.dto.BasketIdentifier;
 import de.predic8.workshop.checkout.error.NoPriceException;
 import de.predic8.workshop.checkout.event.Operation;
 import de.predic8.workshop.checkout.service.CheckoutService;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.kafka.core.KafkaTemplate;

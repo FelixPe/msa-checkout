@@ -50,11 +50,8 @@ public class ShopListener {
 				break;
 			case "update":
 				BigDecimal old = prices.get(price.getUuid());
-
 				if (price.getPrice() == null) return;
-
 				prices.put(price.getUuid(), old);
-
 				break;
 			case "delete":
 				prices.remove(price.getUuid());
